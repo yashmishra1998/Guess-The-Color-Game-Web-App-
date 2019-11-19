@@ -1,0 +1,117 @@
+body {
+	background: #232323;
+	margin: 0;
+	font-family: 'Cherry Swash';
+}
+div#container {
+	width: 50%;
+	margin: 20px auto;
+}
+div.square {
+	background-color: purple;
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 5% 25%;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	transition: background-color 1s;
+}
+h1 {
+	padding: 20px 0;
+	color: white;
+	text-align: center;
+	line-height: 1.1;
+	background-color: dodgerblue;
+	font-weight: normal;
+	margin: 0;
+	text-transform: uppercase;
+	-webkit-transition: background-color 2s;
+	-moz-transition: background-color 2s;
+	transition: background-color 1.5s;
+}
+#colorDisplay {
+	font-size: 120%;
+	font-family: Nunito;
+}
+#stripe {
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-family: 'Cherry Swash';
+}
+.inStripe {
+	width: 50%;
+	margin: 0 auto;
+}
+.selected {
+	background-color: dodgerblue;
+	color: white;
+}
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: steelblue;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	transition: all 0.6s;
+}
+button:focus {
+	outline: 0;
+}
+button:hover {
+	color: white;
+	background-color: dodgerblue;
+}
+#reset {
+	float: left;
+}
+.mode {
+	float: right;
+}
+@media screen and (max-width: 1024px) {
+	div#container {
+		width: 70%;
+		margin: 20px auto;
+	}
+	.inStripe {
+		width: 70%;
+		margin: 0 auto;
+		font-size: 30px;
+	}
+	button {
+		font-size: 1.7rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	div#container {
+		width: 80%;
+		margin: 15px auto;
+	}
+	.inStripe {
+		width: 80%;
+		font-size: 20px;
+		margin: 0 auto;
+	}
+	button {
+		font-size: 1.4rem;
+	}
+}
+@media screen and (max-width: 680px) {
+	div#container {
+		width: 90%;
+		margin: 20px auto;
+	}
+	.inStripe {
+		width: 90%;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	button {
+		font-size: 1rem;
+	}
+}
